@@ -1,0 +1,306 @@
+body {
+  visibility: hidden;
+}
+@media screen and (max-width: 640px) {
+  body {
+    visibility: visible;
+    background-color: rgb(216, 221, 226);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    cursor: pointer;
+  }
+  .topnav {
+    overflow: hidden;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* border: 2px solid black; */
+  }
+  .active {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+  .icon {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+  }
+
+  .topnav {
+    background: rgb(238, 226, 226);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  a.icon {
+    background: rgb(238, 226, 226);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .dropdown {
+    /* text-align: center; */
+    display: none;
+    background-color: rgb(248, 244, 240);
+    padding-top: 8px;
+    border-radius: 12px;
+  }
+  .buy,
+  .sell,
+  .home,
+  .contact,
+  .news {
+    padding-left: 9px;
+    text-decoration: none;
+  }
+  .background-image {
+    background-image: url("real-estate-img2.png");
+    background-size: cover;
+    width: auto;
+    height: 410px;
+    margin-left: -7px;
+    margin-right: -8px;
+    margin-top: -20px;
+    background-repeat: no-repeat;
+  }
+  .back-text1 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .color-listing {
+    background-color: rgb(218, 15, 15);
+    color: white;
+    padding: 11px;
+    border-radius: 3px;
+    font-family: sans-serif;
+  }
+  .estate-img1 {
+    background-image: url("real-estate-img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    border: 1px solid rgb(226, 6, 6);
+    border-radius: 7px;
+  }
+  .listing {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: rgb(218, 15, 15);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 9px;
+    font-family: sans-serif;
+    opacity: 0.8;
+  }
+  .section1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .twentyk {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .location {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  .description {
+    text-align: center;
+    font-size: ;
+    font-family: Roboto;
+  }
+  .first-icons {
+    color: rgb(223, 17, 17);
+    padding-left: 60px;
+    padding-bottom: 20px;
+  }
+  .icon-text {
+    color: black;
+    font-weight: 900;
+  }
+  .fa-bed {
+    padding-right: 80px;
+    padding-bottom: 20px;
+  }
+  .fa-bath {
+    padding-right: 80px;
+  }
+  .pagination {
+    list-style: none;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: -0px;
+  }
+  .pagination li {
+    float: left;
+    padding-left: 14px;
+    color: black;
+    background-color: white;
+  }
+  .pagination a {
+    color: black;
+    text-decoration: none;
+  }
+  .fa-arrow-left {
+    font-size: 30px;
+    padding-right: 90px;
+    padding-left: 90px;
+    color: rgb(223, 17, 17);
+  }
+  .fa-arrow-right {
+    font-size: 30px;
+    color: rgb(223, 17, 17);
+  }
+  .view-button {
+    text-align: center;
+    color: white;
+    background-color: rgb(223, 17, 17);
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .section22 {
+    background-color: beige;
+    height: 700px;
+    margin-bottom: 300px;
+  }
+  .blogs-post {
+    padding-top: -30px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 20px;
+  }
+  .blog-header {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 25px;
+  }
+  .img-forblog {
+    padding-left: 30px;
+    margin-left: 50px;
+  }
+  .img-bottext {
+    text-align: center;
+    color: rgb(177, 24, 24);
+  }
+  .one-blog-post {
+    text-align: center;
+    color: rgb(39, 34, 34);
+    border-radius: 40px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    height: -50px;
+  }
+
+  .read-more-btn {
+    text-align: center;
+    background-color: rgb(158, 9, 9);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 4px;
+  }
+  .read-more-btn:hover {
+    background-color: red;
+  }
+  .blogs-post2 {
+    background-color: rgb(236, 236, 226);
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .img-forblog2 {
+    padding-left: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  .About-okoye {
+    background-color: rgb(255, 255, 255);
+  }
+  #okoyeimg {
+    padding-left: 70px;
+    padding-top: 10px;
+  }
+  .okoye-name {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(153, 6, 6);
+  }
+  .first-para,
+  .second-para {
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .real-estate {
+    padding-left: 10px;
+    text-decoration: underline;
+  }
+  .list-of {
+    color: rgb(196, 45, 45);
+    padding-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  span a {
+    color: red;
+  }
+  span a:hover {
+    color: rgb(17, 0, 255);
+  }
+  footer {
+    background-color: rgb(17, 17, 17);
+    color: bisque;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-left: -20px;
+  }
+  .the-bot {
+    padding-left: 40px;
+  }
+  .tocopy {
+    text-align: center;
+  }
+  .down {
+    color: brown;
+  }
+  .all-right {
+    text-align: center;
+  }
+  .bb {
+    color: white;
+    text-decoration: none;
+  }
+  .more-text {
+    display: none;
+  }
+  .for-font {
+    font-size: 20px;
+  }
+}
